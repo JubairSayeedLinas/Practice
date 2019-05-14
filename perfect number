@@ -1,0 +1,22 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+int x,c=0;
+cout<<"enter the number:";
+cin>>x;
+
+for(int n=1;n<x;n++){
+    if(x%n==0){
+    c=c+n;}
+}
+
+if(c==x){
+   cout<<"its perfect number";
+}
+else
+    cout<<" its not perfect number";
+
+}
